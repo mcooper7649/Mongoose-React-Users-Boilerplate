@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+
+.navbar-brand,
+a:not([href]):not([tabindex]) {
+  color: white !important
+}
+
+.wrapper {
+  max-width: 500px;
+  margin: 50px auto;
+}
+
+.wrapper-users {
+  margin-top: 30px;
+}
